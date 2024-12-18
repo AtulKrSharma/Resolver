@@ -18,3 +18,4 @@ Welcome to the **Resolver** repository! This project is designed to This page wa
 - pages folder: It has the file which contains elements (with Playwright's built in locators and css locators) and functions of the target page i.e. QE-index.html
 - tests folder: It has all the tests with describe, beforeEach, test with tags using custom page fixtures.
 - playwright.config.ts: It has the configurations for the Projects, screenshots, reporter and traces
+- .github\workflows: It has playwright.yml file for the workflow, added coded for caching the dependencies and pushing the results via Github reporter
