@@ -1,11 +1,11 @@
 # Resolver  
 
-Welcome to the **Resolver** repository! This project is designed to This page was made to test the understanding and capabilities of potential automation engineer candidates.
+Welcome to the **Resolver** repository! This project is designed to test the understanding and capabilities of potential automation engineer candidates.
 
 ## Features  
-- fixtures folder: It has the file which contains custom page fixture.
-- pages folder: It has the file which contains elements (with Playwright's built in locators and css locators) and functions of the target page i.e. QE-index.html
-- tests folder: It has all the tests with describe, beforeEach, test with tags using custom page fixtures.
+- fixtures folder: It has the basePage.ts file which contains custom page fixture.
+- pages folder: It has the QETestPage.ts file which contains elements (with Playwright's built in locators and css locators) and functions of the target page i.e. QE-index.html
+- tests folder: It has all the tests in tests.spec.ts file with describe, beforeEach, test with tags using custom page fixtures.
 - playwright.config.ts: It has the configurations for the Projects, screenshots, reporter and traces
 - .github\workflows: It has playwright.yml file for the workflow, added coded for caching the dependencies and pushing the results via Github reporter
 
